@@ -13,9 +13,6 @@ import UserSettingsDropdown from '@/Components/app/UserSettingsDropdown.vue'
                 <SearchForm/>
                 <UserSettingsDropdown/>
             </div>
-            <div class="flex-1 flex flex-col overflow-hidden">
-               <slot></slot> 
-            </div>
         </main>
     </div>
 </template>

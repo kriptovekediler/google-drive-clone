@@ -4,5 +4,6 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 
 <template>
     <AuthenticatedLayout>
+        ss
     </AuthenticatedLayout>
 </template>
