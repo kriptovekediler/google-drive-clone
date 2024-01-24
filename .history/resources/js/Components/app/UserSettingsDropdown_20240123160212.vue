@@ -1,9 +1,3 @@
-<script setup>
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
-import { ChevronDownIcon } from '@heroicons/vue/20/solid'
-import ResponsiveNavLink from '../ResponsiveNavLink.vue';
-</script>
-
 <template>
     <Menu as="div" class="relative inline-block text-left">
       <div>
@@ -27,7 +21,7 @@ import ResponsiveNavLink from '../ResponsiveNavLink.vue';
         leave-to-class="transform scale-95 opacity-0"
       >
         <MenuItems
-          class="absolute right-0 mt-2 w-32 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none"
+          class="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none"
         >
           <div class="px-1 py-1">
             <MenuItem v-slot="{active}">
@@ -51,4 +45,9 @@ import ResponsiveNavLink from '../ResponsiveNavLink.vue';
     </Menu>
 </template>
 
+<script setup>
+import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+import { ChevronDownIcon } from '@heroicons/vue/20/solid'
+import ResponsiveNavLink from '../ResponsiveNavLink.vue';
+</script>
 

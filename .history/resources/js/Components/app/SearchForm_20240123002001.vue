@@ -13,7 +13,7 @@ const form = useForm({
         <TextInput type="text" class="block w-full mr-2" 
         v-model="form.search" 
         autocomplete 
-        placeholder="Search for files and folders"
+        placeholder="Search for filed and folders"
         />
 
     </form>
